@@ -5,17 +5,17 @@ const { Content } = Layout;
 const BodyComponent = () => {
     const layouts = [
         {
-            image: 'image1.jpg',
+            image: 'images/image1.jpg',
             title: 'Title 1',
             content: 'Content 1',
         },
         {
-            image: 'image2.jpg',
+            image: 'images/image2.jpg',
             title: 'Title 2',
             content: 'Content 2',
         },
         {
-            image: 'image3.jpg',
+            image: 'images/image3.jpg',
             title: 'Title 3',
             content: 'Content 3',
         },
@@ -23,7 +23,7 @@ const BodyComponent = () => {
     ];
 
     return (
-        <Content style={{ padding: '50px' }}>
+        <Content style={{ padding: '5%' }}>
             {layouts.map((layout, index) => (
                 <Row justify="center" key={index}>
                     <Col span={8} style={{ background: '#f0f0f0', padding: '24px', margin: '16px', borderRadius: '4px' }}>

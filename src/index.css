@@ -72,3 +72,7 @@ button {
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--color-accent);
 }
+
+@media (max-width: 400px) {
+  :where(.css-dev-only-do-not-override-15rg2km).ant-col-8{max-width: 100% !important;flex: 1;}
+}
